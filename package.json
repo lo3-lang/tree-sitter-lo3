@@ -1,0 +1,29 @@
+{
+  "name": "tree-sitter-lo3",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for the lo3 language",
+  "main": "bindings/node",
+  "keywords": ["tree-sitter", "lo3", "parser"],
+  "repository": "github:lo3-lang/tree-sitter-lo3",
+  "license": "MIT",
+  "scripts": {
+    "generate": "tree-sitter generate",
+    "test": "tree-sitter test",
+    "parse": "tree-sitter parse"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.26.13"
+  },
+  "files": [
+    "grammar.js",
+    "src/**",
+    "queries/**"
+  ],
+  "tree-sitter": [
+    {
+      "scope": "source.lo3",
+      "file-types": ["lo3"],
+      "highlights": "queries/highlights.scm"
+    }
+  ]
+}

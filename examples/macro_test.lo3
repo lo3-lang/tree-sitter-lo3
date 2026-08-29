@@ -1,0 +1,5 @@
+// this is a comment
+@. #
+@{ some faster init stuff }
+#l _main $0
+#o _hi $0

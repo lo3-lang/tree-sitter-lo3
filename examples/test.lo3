@@ -1,0 +1,6 @@
+#o "\tHello World?\tOr?\nNo..."
+#n _i $0
+#l _loop $0
+#+ _i $1
+#o %i $0
+#? $0 $0
