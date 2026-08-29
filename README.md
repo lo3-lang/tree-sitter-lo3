@@ -1,5 +1,9 @@
 # tree-sitter-lo3
 
+![Made With](https://img.shields.io/badge/made%20with-vibecoding-blueviolet?style=plastic)
+
+![Made With](https://img.shields.io/badge/made%20with-agent-blue?style=plastic)
+
 Tree-sitter grammar for [lo3](https://github.com/lo3-lang/lo3-core), derived
 directly from `src/parsing.c` (`pars_tokenize`, `pars_resv`) and
 `src/internal/{bare-define.h,specific-language.h}` in lo3-core.
